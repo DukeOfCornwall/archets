@@ -1,0 +1,23 @@
+/*
+ Theme Name:   mon_theme
+ Theme URI:    http://localhost/mon_theme/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Morgan
+ Author URI:   http://example.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url(../twentythirteen/style.css);
+
+#map{margin:auto; margin-top:20px;}
+.site-info{display:none;}
+
+#page{
+	background:url(img/partition.png)no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
